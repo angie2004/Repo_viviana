@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Ecogaia</title>
+</head>
+<body>
+
+    <div class="content">
+
+        <form action="">
+
+            <div class="formu">
+
+                <h2>Empleado</h2>
+
+                <div class="grupo">
+                    <label for="">Nombre completo</label>
+                    <input type="text" name="Nombre" id="nombre" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="">Numero de documento</label>
+                    <input type="text" name="Numero de documento" id="id" required >
+                </div>
+        
+                <div class="grupo">
+                    <label for="">Ingrese Correo</label>
+                    <input type="email" name="Correo" id="correo" required>
+                </div>
+        
+                <div class="grupo">
+                    <label for="">Ingrese N° Telefono</label>
+                    <input type="number" name="telefono" id="telefono" required>
+                </div>
+        
+                <div class="grupo">
+                    <label for="">Fecha de nacimiento</label>
+                    <input type="date" name="Fecha de nacimiento" id="fecha" required >
+                </div>
+
+                <div class="botones">
+
+                    <button id="enviar" type="button" class="btn btn-primary mt-3"> Enviar </button>
+                    <button id="listar" type="button" class="btn btn-primary mt-3"> Listar </button>
+                    <button id="modificar" type="button" class="btn btn-primary mt-3"> Modificar </button>
+                </div>  
+
+            </div>
+
+        </form>
+
+        
+        <div class="col-5 m-5 table">
+
+            <table class="table table-striped" id="tabla">
+    
+            </table>
+    
+        </div>
+
+        <hr>
+        
+    </div>
+    
+
+    <div class="content2">
+
+        <form action="" id="buscarid">
+
+            <div class="formu2">
+
+                <h2>Empleado</h2>
+
+                <div class="grupo">
+                    <label for="">Ingrese el ID</label>
+                    <input type="text" name="Nombre" id="codigo" required>
+                </div>
+
+                <div class="botonbuscar">
+
+                    <button id="buscar" type="button" class="btn btn-primary mt-3"> Buscar </button>
+                </div>  
+
+            </div>
+
+        </form>
+
+        <div class="div" id="usuario"></div>
+
+    </div>
+
+    <div class="content2">
+
+        <form action="" id="buscarN">
+
+            <div class="formu2">
+
+                <h2>Buscar por nombre</h2>
+
+                <div class="grupo">
+                    <label for="">Ingrese el nombre</label>
+                    <input type="text" name="Nombre" id="buscarNombre" required>
+                </div>
+
+                <div class="botonbuscar">
+
+                    <button id="Nombre" type="button" class="btn btn-primary mt-3"> Buscar </button>
+                </div>  
+
+            </div>
+
+        </form>
+
+        <div class="div" id="BNombre"></div>
+
+    </div>
+
+    <div class="content2">
+
+        <form action="" id="Eliminar">
+
+            <div class="formu2">
+
+                <h2>Eliminar</h2>
+
+                <div class="grupo">
+                    <label for="">Ingrese el ID</label>
+                    <input type="text" name="Nombre" id="Eliminar_ID" required>
+                </div>
+
+                <div class="botonbuscar">
+
+                    <button id="eliminar" type="button" class="btn btn-primary mt-3"> Eliminar </button>
+                </div>  
+
+            </div>
+
+        </form>
+
+        <div class="div" id="eliminarUsu"></div>
+
+    </div>
+    
+    <script src="consultas.js"></script>
+</body>
+</html>
