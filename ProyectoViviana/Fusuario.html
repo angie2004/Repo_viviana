@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Ecogaia</title>
+</head>
+<body>
+        <nav>
+            <div class="formularios">
+                <li id="empleado"><a href="">Empleado</a></li>
+                <li id="usuario"><a href="Fusuario.html">Usuario</a></li>
+            </div>
+        </nav>
+        <div class="content">
+
+            <form action="">
+    
+                <div class="formu">
+    
+                    <h2>Usuario</h2>
+                    <div class="grupo">
+                        <label for="">ID</label>
+                        <input type="text" name="id" id="id" required>
+                    </div>
+    
+                    <div class="grupo">
+                        <label for="">Nombre completo</label>
+                        <input type="text" name="Nombre" id="nombre" required>
+                    </div>
+    
+                    <div class="grupo">
+                        <label for="">Numero de documento</label>
+                        <input type="number" name="Numero de documento" id="documento" required >
+                    </div>
+            
+                    <div class="grupo">
+                        <label for="">Ingrese Correo</label>
+                        <input type="email" name="Correo" id="correo" required>
+                    </div>
+            
+                    <div class="grupo">
+                        <label for="">Ingrese N° Telefono</label>
+                        <input type="number" name="telefono" id="telefono" required>
+                    </div>
+            
+                    <div class="grupo">
+                        <label for="">Edad</label>
+                        <input type="number" name="edad" id="edad" required >
+                    </div>
+    
+                    <div class="botones">
+    
+                        <button id="enviar" type="button" class="btn btn-primary mt-3"> Enviar </button>
+                        <button id="listar" type="button" class="btn btn-primary mt-3"> Listar  </button>
+                        <button id="enviarmodi" type="button" class="btn btn-primary mt-3"> Modificar </button>
+                        
+                    </div>  
+    
+                </div>
+    
+            </form>
+    
+            
+            <div class="col-5 m-5 table">
+    
+                <table class="table table-striped" id="tabla">
+        
+                </table>
+        
+            </div>
+    
+            <hr>
+            
+        </div>
+        
+    
+        <div class="content2">
+    
+            <form action="" id="buscarid">
+    
+                <div class="formu2">
+    
+                    <h2>Buscar Id</h2>
+    
+                    <div class="grupo">
+                        <label for="">Ingrese el ID</label>
+                        <input type="text" name="Nombre" id="idbuscar" required>
+                    </div>
+    
+                    <div class="botonbuscar">
+                        <button id="enviarid" type="button" class="btn btn-primary mt-3"> Enviar </button>
+                    </div>  
+    
+                </div>
+    
+            </form>
+            <div id="busUsuario"></div>
+        </div>
+
+        <div class="content3">
+    
+            <form action="" id="Eliminaid">
+    
+                <div class="formu3">
+    
+                    <h2>Eliminar</h2>
+    
+                    <div class="grupo">
+                        <label for="">Eliminar ID</label>
+                        <input type="text" name="Nombre" id="eliminaID" required>
+                    </div>
+    
+                    <div class="botoneliminar">
+                        <button id="eliminarid" type="button" class="btn btn-primary mt-3"> Enviar </button>
+                    </div>  
+    
+                </div>
+    
+            </form>
+            <div id="ElimUsuario"></div>
+        </div>
+
+        <div class="content4">
+    
+            <form action="" id="buscaredad">
+    
+                <div class="formu4">
+    
+                    <h2>Buscar Edad</h2>
+    
+                    <div class="grupo">
+                        <label for="">Ingrese la edad</label>
+                        <input type="text" name="Nombre" id="edadbuscar" required>
+                    </div>
+    
+                    <div class="botonedad">
+                        <button id="enviaredad" type="button" class="btn btn-primary mt-3"> Enviar </button>
+                    </div>  
+    
+                </div>
+    
+            </form>
+            
+            <div id="busEdad"></div>
+        </div>
+
+
+         
+        
+            
+    </div>
+        
+        <script src="consultasV.js"></script>
+</body>
+</html>

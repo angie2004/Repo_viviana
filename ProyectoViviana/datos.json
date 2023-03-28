@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mariana",
+        "documento": "52802243",
+        "correo": "marina@gmail.com",
+        "telefono": "123456784",
+        "edad": "19"
+    }
+    , {
+
+        "id": 3,
+        "nombre": "Catalina",
+        "documento": "1016593385",
+        "correo": "catalina@gmail.com",
+        "telefono": "9875473289",
+        "edad": "20"
+
+    }
+    ,{
+
+        "id": 7,
+        "nombre": "Andres",
+        "documento": "1019599052",
+        "correo": "andres@gmail.com",
+        "telefono": "9876432789",
+        "edad": "32"
+
+    }
+    ,{
+
+        "id": 2,
+        "nombre": "Alejandro",
+        "documento": "79223146",
+        "correo": "alejandro@gmail.com",
+        "telefono": "876327085",
+        "edad": "18"
+
+    }
+    ,{
+
+        "id": 6,
+        "nombre": "Mia",
+        "documento": "562398564",
+        "correo": "mia@gmail.com",
+        "telefono": "8976534567",
+        "edad": "40"
+
+    }
+]
